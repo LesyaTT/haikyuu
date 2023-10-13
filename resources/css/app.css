@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "FuturaPT";
+    font-weight: 400;
+    src: url("../assets/FuturaPT-Book.ttf");
+}
+
+@font-face {
+    font-family: "FuturaPT";
+    font-weight: 500;
+    src: url("../assets/FuturaPT-Medium.ttf");
+}
+
+@font-face {
+    font-family: "FuturaPT";
+    font-weight: 700;
+    src: url("../assets/FuturaPT-Bold.ttf");
+}
+
+:root {
+    font-family: FuturaPT, sans-serif;
+    background-color: var(--dark);
+
+    --dark: #1E2027;
+    --light: #898989;
+    --orange: #FF4900;
+    --lightorange: #FF9900;
+    --white: #FFFFFF;
+}
