@@ -5,7 +5,7 @@ export const StarRating = ({rating}) => {
 
     for (let i = 0; i < fullStars; i++) {
         stars.push(
-            <svg
+            <svg className='xl:w-[30px] md:w-[20px]'
                 key={i}
                 width="30px"
                 height="30px"
@@ -13,7 +13,7 @@ export const StarRating = ({rating}) => {
                 fill="#FF9900"
                 xmlns="http://www.w3.org/2000/svg"
             >
-                <svg
+                <svg className='xl:w-[30px] md:w-[20px]'
                     width="30px"
                     height="30px"
                     viewBox="0 0 24 24"
@@ -34,7 +34,7 @@ export const StarRating = ({rating}) => {
 
     if (hasHalfStar) {
         stars.push(
-            <svg
+            <svg className='xl:w-[30px] md:w-[20px]'
                 key={fullStars}
                 width="30px"
                 height="30px"
@@ -42,7 +42,7 @@ export const StarRating = ({rating}) => {
                 fill="#FF9900"
                 xmlns="http://www.w3.org/2000/svg"
             >
-                <svg
+                <svg className='xl:w-[30px] md:w-[20px]'
                     width="30px"
                     height="30px"
                     viewBox="0 0 24 24"

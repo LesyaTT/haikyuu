@@ -3,26 +3,26 @@ import { OrangeButton } from "../orangeButton";
 export const Hero = () => {
   return (
     <>
-      <section id="hero" className="lg:pt-32 pt-96">
+      <section id="hero" className="md:pt-32 xl:pt-96">
         <div className="w-[47%]">
-          <p className="lg:text-xl text-lightorange text-4xl font-medium">
+          <p className="md:text-xl text-lightorange xl:text-4xl font-medium">
             アニメバレーボール
           </p>
-          <h1 className="lg:text-6xl text-white text-9xl font-bold mb-5">
+          <h1 className="md:text-6xl text-white xl:text-9xl font-bold mb-5">
             Anime Haikyuu!!
           </h1>
-          <p className="lg:text-2xl text-white text-4xl font-medium mb-8">
+          <p className="md:text-2xl text-white xl:text-4xl font-medium mb-8">
             Shoyo Hinata decides to take up volleyball seriously after watching
             this game several times. Now he is fulfilling his dream by creating
             a real volleyball team.
           </p>
           <OrangeButton info="Watch now!" />
         </div>
-        <div className="mt-[240px] w-[30%] flex justify-between items-center">
+        <div className="md:mt-[50px] xl:mt-[240px] md:w-[70%] xl:w-[30%] flex justify-between items-center">
           <div className="flex flex-col">
-            <p className="text-white text-4xl">Rating</p>
+            <p className="text-white md:text-2xl xl:text-4xl">Rating</p>
             <div className="flex items-center">
-              <svg
+              <svg className='xl:w-[40px] md:w-[30px]'
                 width="40px"
                 height="40px"
                 viewBox="0 0 24 24"
@@ -37,7 +37,7 @@ export const Hero = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <svg
+              <svg className='xl:w-[40px] md:w-[30px]'
                 width="40px"
                 height="40px"
                 viewBox="0 0 24 24"
@@ -52,7 +52,7 @@ export const Hero = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <svg
+              <svg className='xl:w-[40px] md:w-[30px]'
                 width="40px"
                 height="40px"
                 viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ export const Hero = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <svg
+              <svg className='xl:w-[40px] md:w-[30px]'
                 width="40px"
                 height="40px"
                 viewBox="0 0 24 24"
@@ -82,7 +82,7 @@ export const Hero = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <svg
+              <svg className='xl:w-[40px] md:w-[30px]'
                 width="40px"
                 height="40px"
                 viewBox="0 0 24 24"
@@ -100,12 +100,12 @@ export const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <p className="text-white text-4xl">Genre</p>
-            <p className="text-white text-2xl">Drama, Comedy, Sport, School</p>
+            <p className="text-white md:text-2xl xl:text-4xl">Genre</p>
+            <p className="text-white md:text-xl xl:text-2xl">Drama, Comedy, Sport, School</p>
           </div>
           <div className="flex flex-col">
-            <p className="text-white text-4xl">Studio</p>
-            <p className="text-white text-2xl">Production I.G</p>
+            <p className="text-white md:text-2xl xl:text-4xl">Studio</p>
+            <p className="text-white md:text-xl xl:text-2xl">Production I.G</p>
           </div>
         </div>
       </section>

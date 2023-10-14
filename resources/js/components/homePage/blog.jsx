@@ -8,12 +8,12 @@ export const Blog = () => {
 
   return (
     <>
-      <section id="blog" className="mt-[80px] mb-[100px]">
+      <section id="blog" className="md:mt-[50px] xl:mt-[80px] mb-[100px]">
         <div className="flex justify-between items-center mb-[50px]">
           <SecTitle title={"Haikyuu!! Blog"} />
           <OrangeButton info={"See all"} />
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex items-start justify-between">
             {info.map(item => (
                 <BlogCard
                     img={item.img_path}
@@ -31,19 +31,19 @@ export const Blog = () => {
 const BlogCard = ({ img, title, desc, views }) => {
   return (
     <>
-      <div className="w-[650px]">
+      <div className="md:w-[300px] xl:w-[650px]">
         <img
           src={img}
           alt=""
-          className="hover:shadow-white rounded-2xl mb-5 h-[365px] w-[650px]"
+          className="hover:shadow-white rounded-2xl mb-5 md:h-[180px] xl:h-[365px] md:w-[350px] xl:w-[650px]"
         />
-        <h4 className="text-white font-bold text-5xl mb-2">{title}</h4>
-        <p className="text-white text-3xl">{desc}</p>
+        <h4 className="text-white font-bold md:text-3xl xl:text-5xl mb-2">{title}</h4>
+        <p className="text-white md:text-xl xl:text-3xl">{desc}</p>
         <div className="flex justify-between items-center">
           <LearnMoreButton />
           <div className="flex items-center">
-            <p className="text-white text-2xl me-2">{views}</p>
-            <svg
+            <p className="text-white md:text-lg xl:text-2xl me-2">{views}</p>
+            <svg className='xl:w-[35px] md:w-[20px]'
               width="35px"
               height="35px"
               viewBox="0 0 24 24"

@@ -4,15 +4,15 @@ import { SecTitle } from "../secTitle";
 export const Merch = () => {
   return (
     <>
-      <section id="merch" className="mt-[80px]">
+      <section id="merch" className="md:mt-[40px] xl:mt-[80px]">
         <div className="flex justify-between items-center mb-[50px]">
           <SecTitle title={"Haikyuu!! Merch"} />
           <OrangeButton info={"Other products"} />
         </div>
         <div className="w-full flex items-center">
           <div className="w-full flex justify-between">
-            <div className="w-[50%]">
-              <p className="text-white text-4xl mb-[40px]">
+            <div className="md:w-[100%] xl:w-[50%]">
+              <p className="text-white md:text-2xl xl:text-4xl mb-[40px]">
                 At Haikyuu Merch Store, everything we promise revolves around
                 our mission of comforting a huge numbers of Haikyuu lovers that
                 cannot find a good place to buy a wide-ranged licensed product.
@@ -31,7 +31,7 @@ export const Merch = () => {
               <OrangeButton info={"Buy now"} />
             </div>
             <div
-              className="w-[60%] min-h-[50%]"
+              className="xl:w-[60%] xl:min-h-[50%]"
               style={{
                 background: 'url("/imgs/merch/itachiama.png") 100px center no-repeat, url("/imgs/merch/sakusa.png") right -55px no-repeat',
                 backgroundSize: "65%, 47%",

@@ -4,10 +4,10 @@ const backgroundImageUrl = "/imgs/about-img.png";
 export const About = () => {
   return (
     <>
-      <section id="about" className="flex justify-between pt-[100px] pb-[80px]">
-        <div className="w-[50%]">
+      <section id="about" className="flex justify-between md:pt-[60px] xl:pt-[100px] md:pb-[50px] xl:pb-[80px]">
+        <div className="md:w-[90%] xl:w-[50%]">
           <SecTitle title={"About Anime"} />
-          <p className="mt-[40px] text-white text-3xl">
+          <p className="md:mt-[20px] xl:mt-[40px] text-white md:text-xl xl:text-3xl">
             Haikyuu!! - anime about volleyball, released by the studio
             Production I.G, which, by the way, ate a dog on the sports genre:
             she previously released Kuroko no Basket about basketball, Prince of
@@ -26,7 +26,7 @@ export const About = () => {
             defeat, Hinata hopes for a rematch.
           </p>
         </div>
-        <div className="w-[1024px]"
+        <div className="md:w-[450px] xl:w-[1024px]"
           style={{
             backgroundImage: `url(${backgroundImageUrl})`,
             backgroundSize: "contain",

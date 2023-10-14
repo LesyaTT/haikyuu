@@ -41,7 +41,7 @@ export const HomePage = () => {
                 <Header color="black"/>
                 <Hero/>
             </div>
-            <div className="ms-[230px] me-[230px]">
+            <div className="xl:ms-[230px] xl:me-[230px] md:ms-[100px] md:me-[100px]">
                 <About/>
                 <Episodes/>
                 <Seasons/>

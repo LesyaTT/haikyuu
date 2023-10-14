@@ -8,7 +8,7 @@ export const Teams = () => {
 
   return (
     <>
-      <section id="teams" className="mt-[100px]">
+      <section id="teams" className="md:mt-[60px] xl:mt-[100px]">
         <div className="flex justify-between items-center mb-[50px]">
           <SecTitle title={"Volleyball Teams"} />
           <OrangeButton info={"See all teams"} />
@@ -27,9 +27,9 @@ export const Teams = () => {
 const TeamsCard = ({ img, name }) => {
     return(
         <>
-            <div className="w-[480px]">
+            <div className="md:w-[250px] xl:w-[480px]">
                 <img src={img} alt="" className="rounded-2xl hover:shadow-white mb-4"/>
-                <h2 className="font-bold text-white text-6xl">{ name }</h2>
+                <h2 className="font-bold text-white md:text-4xl xl:text-6xl">{ name }</h2>
                 <LearnMoreButton />
             </div>
         </>

@@ -9,7 +9,7 @@ export const Seasons = () => {
 
     return (
         <>
-            <section id="seasons" className="mt-[100px]">
+            <section id="seasons" className="md:mt-[60px] xl:mt-[100px]">
                 <div className="flex justify-between items-center">
                     <SecTitle title={"Seasons"}/>
                     <OrangeButton info={"See all seasons"}/>
@@ -28,18 +28,18 @@ export const Seasons = () => {
 const SeasonsCard = ({img, title, desc, views, rating}) => {
     return (
         <>
-            <div className="w-[450px]">
-                <img className="w-[450px] h-[650px] rounded-2xl hover:shadow-white mb-3" src={`${img}`} alt=""/>
-                <h3 className="font-bold text-white text-5xl">{title}</h3>
-                <p className="text-white text-3xl text-ellipsis line-clamp-3">{desc}</p>
+            <div className="md:w-[240px] xl:w-[450px]">
+                <img className="md:w-[240px] xl:w-[450px] md:h-[360px] xl:h-[650px] rounded-2xl hover:shadow-white mb-3" src={`${img}`} alt=""/>
+                <h3 className="font-bold md:mb-2 text-white md:text-3xl xl:text-5xl">{title}</h3>
+                <p className="text-white md:text-2xl xl:text-3xl text-ellipsis line-clamp-3">{desc}</p>
                 <div className="flex justify-between mt-3">
                     <div className="">
-                        <p className="text-white text-3xl font-medium">Rating</p>
+                        <p className="text-white md:text-2xl xl:text-3xl font-medium">Rating</p>
                         <StarRating rating={rating}/>
                     </div>
                     <div className="flex items-center">
-                        <p className="text-white text-2xl me-2">{views}</p>
-                        <svg
+                        <p className="text-white md:text-xl xl:text-2xl me-2">{views}</p>
+                        <svg className='xl:w-[30px] md:w-[25px]'
                             width="30px"
                             height="30px"
                             viewBox="0 0 24 24"

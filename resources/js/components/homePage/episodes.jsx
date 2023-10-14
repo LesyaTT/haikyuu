@@ -33,17 +33,17 @@ const EpisodCard = ({ title, date, views, img }) => {
     <>
       <div className="">
         <img
-          className="w-[650px] rounded-3xl hover:shadow-white"
+          className="md:w-[330px] xl:w-[650px] rounded-3xl hover:shadow-white"
           src={`${img}`}
           alt=""
         />
         <div className="mt-4">
-          <h3 className="font-bold text-white text-4xl">{title}</h3>
+          <h3 className="font-bold text-white md:text-2xl xl:text-4xl">{title}</h3>
           <div className="flex items-center justify-between">
-            <p className="text-white text-3xl">{date}</p>
+            <p className="text-white md:text-xl xl:text-3xl">{date}</p>
             <div className="flex items-center">
-              <p className="text-white text-2xl mr-2">{views}</p>
-              <svg
+              <p className="text-white md:text-xl xl:text-2xl mr-2">{views}</p>
+              <svg className='xl:w-[30px] md:w-[25px]'
                 width="30px"
                 height="30px"
                 viewBox="0 0 24 24"

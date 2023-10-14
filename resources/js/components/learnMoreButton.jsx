@@ -1,12 +1,12 @@
 export const LearnMoreButton = () => {
   return (
     <>
-      <button className="flex items-center text-lightorange text-3xl mt-3 underline-offset-8 underline">
+      <button className="flex items-center text-lightorange md:text-xl xl:text-3xl mt-3 underline-offset-8 underline">
         Learn more{" "}
         <svg
           width="30px"
           height="30px"
-          className="ms-2"
+          className="ms-2 xl:w-[30px] md:w-[25px]"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
