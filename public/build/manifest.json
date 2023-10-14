@@ -1,0 +1,31 @@
+{
+  "resources/assets/FuturaPT-Bold.ttf": {
+    "file": "assets/FuturaPT-Bold-9aa752cb.ttf",
+    "src": "resources/assets/FuturaPT-Bold.ttf"
+  },
+  "resources/assets/FuturaPT-Book.ttf": {
+    "file": "assets/FuturaPT-Book-8f87a745.ttf",
+    "src": "resources/assets/FuturaPT-Book.ttf"
+  },
+  "resources/assets/FuturaPT-Medium.ttf": {
+    "file": "assets/FuturaPT-Medium-f00fac1e.ttf",
+    "src": "resources/assets/FuturaPT-Medium.ttf"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-c2a5526a.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.jsx": {
+    "assets": [
+      "assets/FuturaPT-Book-8f87a745.ttf",
+      "assets/FuturaPT-Medium-f00fac1e.ttf",
+      "assets/FuturaPT-Bold-9aa752cb.ttf"
+    ],
+    "css": [
+      "assets/app-c2a5526a.css"
+    ],
+    "file": "assets/app-98463565.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  }
+}
