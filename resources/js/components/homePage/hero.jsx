@@ -3,15 +3,15 @@ import { OrangeButton } from "../orangeButton";
 export const Hero = () => {
   return (
     <>
-      <section id="hero" className="pt-96">
+      <section id="hero" className="lg:pt-32 pt-96">
         <div className="w-[47%]">
-          <p className="text-lightorange text-4xl font-medium">
+          <p className="lg:text-xl text-lightorange text-4xl font-medium">
             アニメバレーボール
           </p>
-          <h1 className="text-white text-9xl font-bold mb-5">
+          <h1 className="lg:text-6xl text-white text-9xl font-bold mb-5">
             Anime Haikyuu!!
           </h1>
-          <p className="text-white text-4xl font-medium mb-8">
+          <p className="lg:text-2xl text-white text-4xl font-medium mb-8">
             Shoyo Hinata decides to take up volleyball seriously after watching
             this game several times. Now he is fulfilling his dream by creating
             a real volleyball team.

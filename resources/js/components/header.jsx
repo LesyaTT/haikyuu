@@ -6,7 +6,7 @@ export const Header = ({ color }) => {
   return (
     <>
       <header className="flex justify-between w-full h-24 items-center">
-        <img src='/imgs/logo.svg' className="h-[160px]" alt="" srcset="" />
+        <img src='/imgs/logo.svg' className="lg:h-[120px] h-[160px]" alt="" srcset="" />
         <div className="flex justify-between w-1/2">
           <Link color={color} adress="/" text="Home" />
           <Link color={color} adress="#about" text="About" />
@@ -17,7 +17,7 @@ export const Header = ({ color }) => {
           <Link color={color} adress="#blog" text="Blog" />
         </div>
         <div className="flex items-center">
-          <button className="w-[45px] h-[45px] mr-[15px]">
+          <button className="lg:w-[35px] w-[45px] h-[45px] mr-[15px]">
             <svg
               className="hover:stroke-lightorange"
               viewBox="0 0 24 24"
@@ -33,7 +33,7 @@ export const Header = ({ color }) => {
               />
             </svg>
           </button>
-          <button className="w-[45px] h-[45px] mr-[15px]">
+          <button className="lg:w-[35px] w-[45px] h-[45px] mr-[15px]">
             <svg
               className={`hover:stroke-lightorange`}
               viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ export const Header = ({ color }) => {
 const Link = ({ color, text, adress }) => {
   return (
     <a
-      className={`text-3xl text-${color} link-wrapper hover:text-lightorange`}
+      className={`lg:text-2xl text-3xl text-${color} link-wrapper hover:text-lightorange`}
       href={`${adress}`}
     >
       {text}
