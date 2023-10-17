@@ -33,7 +33,7 @@ const BlogCard = ({ img, title, desc, views }) => {
     <>
       <div className="md:w-[300px] xl:w-[650px]">
         <img
-          src={img}
+          src={`imgs/blog/${img}`}
           alt=""
           className="hover:shadow-white rounded-2xl mb-5 md:h-[180px] xl:h-[365px] md:w-[350px] xl:w-[650px]"
         />

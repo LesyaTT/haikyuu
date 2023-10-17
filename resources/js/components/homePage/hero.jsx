@@ -3,7 +3,7 @@ import { OrangeButton } from "../orangeButton";
 export const Hero = () => {
   return (
     <>
-      <section id="hero" className="md:pt-32 xl:pt-96">
+      <section id="hero" className="md:pt-[90px] xl:pt-96">
         <div className="w-[47%]">
           <p className="md:text-xl text-lightorange xl:text-4xl font-medium">
             アニメバレーボール
