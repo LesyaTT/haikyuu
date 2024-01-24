@@ -1,7 +1,7 @@
-#HAIKYUU
+# HAIKYUU
 Тестовый проект на стеке **Laravel/ReactJS/Tailwind**
 
-##Как развернуть проект локально:
+## Как развернуть проект локально:
 ```
 git clone https://github.com/LesyaTT/haikyuu.git
 npm install
