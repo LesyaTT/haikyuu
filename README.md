@@ -6,14 +6,14 @@
 git clone https://github.com/LesyaTT/haikyuu.git
 npm install
 ```
-**Затем внести изменения в файл .env:**
+**Затем внесите изменения в файл .env:**
 
-DB_CONNECTION=mysql__
-DB_HOST=127.0.0.1__
-DB_PORT=3306__
-DB_DATABASE=laravel__
-DB_USERNAME=root__
-DB_PASSWORD=
+DB_CONNECTION=*измените это значение*  
+DB_HOST=*измените это значение*  
+DB_PORT=*измените это значение*  
+DB_DATABASE=*измените это значение*  
+DB_USERNAME=*измените это значение*  
+DB_PASSWORD=*измените это значение*
 
 ```
 php artisan migrate
