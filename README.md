@@ -6,13 +6,13 @@
 git clone https://github.com/LesyaTT/haikyuu.git
 npm install
 ```
-Затем внести изменения в файл .env:
+**Затем внести изменения в файл .env:**
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
+DB_CONNECTION=mysql__
+DB_HOST=127.0.0.1__
+DB_PORT=3306__
+DB_DATABASE=laravel__
+DB_USERNAME=root__
 DB_PASSWORD=
 
 ```
